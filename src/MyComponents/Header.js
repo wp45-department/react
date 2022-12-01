@@ -32,6 +32,6 @@ Header.defaultProps = {
   title: "Your title goes here"
 }
 
-Header.propsTypes = {
-  title: PropTypes.string
-}
+// Header.propsTypes = {
+//   title: PropTypes.string
+// }
