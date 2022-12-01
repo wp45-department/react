@@ -2,6 +2,8 @@ import React from 'react'
 
 export const Todos = () => {
   return (
-    <div>Todos Working..!</div>
+    <div className='container'>
+    <h3>TO DOS List</h3>
+    </div>
   )
 }

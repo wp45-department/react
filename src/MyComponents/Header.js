@@ -29,9 +29,11 @@ export default function Header(props) {
 }
 
 Header.defaultProps = {
-  title: "Your title goes here"
+  title: "Your title goes here",
+  searchbar: true
 }
 
 Header.propsTypes = {
-  title: PropTypes.string
+  title: PropTypes.string,
+  searchbar: PropTypes.bool.isRequired
 }
