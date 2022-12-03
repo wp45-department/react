@@ -117,4 +117,20 @@
   color: white !important;
 }
 
+.cust-footer-grid {
+  padding: 30px !important;
+  min-width: auto;
+}
+
+.cust-container {
+  padding-right: 0px !important;
+}
+
+.cust-footer-grid .css-1or64il-MuiButtonGroup-root .MuiButtonGroup-grouped {
+  margin-right: 20px !important;
+  margin-left: 20px !important;
+  border: 0px !important;
+  color: white !important;
+}
+
 /* 03.12.2022 css end */

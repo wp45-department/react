@@ -53,7 +53,7 @@ import { spacing } from '@mui/system';
 
 function App() {
   return (
-<Container className="cust-container" fixed sx={{backgroundImage: `url(${logo})`,height: "100vh",width:"auto", backgroundSize: 'cover',backgroundPosition: 'center',}}>
+<Container className="cust-container" fixed sx={{backgroundImage: `url(${logo})`,height: "auto",width:"auto", backgroundSize: 'cover',backgroundPosition: 'center',}}>
 <Grid container className='cust-first-grid' spacing={3}>
   <Grid className='cust-hader-grid child-grid-1' grid xs>
     <Grid xs={2}><img className='cust-header-logo' src={headerlogo}/></Grid>
@@ -81,6 +81,21 @@ function App() {
     <Grid><Button variant="contained" size="large">Explore ➜</Button></Grid>
   </Grid>
 </Grid>
+
+
+<Grid container className='cust-footer-grid'sx={{backgroundColor: `Black`,width:"auto",}} spacing={3}>
+  <Grid className='cust-hader-grid footer-grid-1' grid xs>
+    <Grid xs={2}><img className='cust-header-logo' src={headerlogo}/></Grid>
+  </Grid>
+  <Grid className='cust-footer-grid child-grid-2' grid xs={6}>
+    <Grid><ButtonGroup variant="text" className="cust-menu-link-group" aria-label="text button group" orientation="vertical">
+    <Button>Explore</Button>
+    <Button>Community</Button>
+    <Button>More</Button>
+  </ButtonGroup></Grid>
+  </Grid>
+</Grid>
+
 </Container>
 );
 }
