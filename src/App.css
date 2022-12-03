@@ -36,3 +36,35 @@
     transform: rotate(360deg);
   }
 }
+
+.cust-container {
+  max-width: 1920px !important;
+}
+
+/* img.cust-header-logo {
+  height: 80px !important;
+  width: 80px !important;
+} */
+
+.cust-first-grid{
+	padding: 50px !important;
+}
+
+.cust-first-grid{
+	display: flex !important;
+}
+
+.cust-hader-grid{
+	padding: 20px !important;
+	align-items: center !important;
+}
+
+.child-grid-2 .h1, h1 {
+  font-size: 16px !important;
+  color: white !important;
+  text-align: right !important;
+}
+.child-grid-2{
+  display: flex;
+  justify-content: right !important;
+}
