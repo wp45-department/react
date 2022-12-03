@@ -1,5 +1,5 @@
 
-// import Header from "./MyComponents/Header";
+
 // import {Todos} from "./MyComponents/Todos";
 // import Footer from "./MyComponents/Footer";
 // import {Button} from '@mui/material';
@@ -46,25 +46,42 @@ import Container from '@mui/material/Container';
 import logo from '../src/ezgif.com-gif-maker.png';
 import headerlogo from '../src/header-logo.svg';
 import Grid from '@mui/material/Grid'
-import { Button } from '@mui/material';
+import { Button,ButtonGroup } from '@mui/material';
 import { withTheme } from '@emotion/react';
+import { spacing } from '@mui/system';
+
 
 function App() {
   return (
-<Container className="cust-container" fixed sx={{backgroundImage: `url(${logo})`,height: "70vh",width:"auto", backgroundSize: 'cover',backgroundPosition: 'center',}}>
+<Container className="cust-container" fixed sx={{backgroundImage: `url(${logo})`,height: "100vh",width:"auto", backgroundSize: 'cover',backgroundPosition: 'center',}}>
 <Grid container className='cust-first-grid' spacing={3}>
   <Grid className='cust-hader-grid child-grid-1' grid xs>
     <Grid xs={2}><img className='cust-header-logo' src={headerlogo}/></Grid>
   </Grid>
   <Grid className='cust-hader-grid child-grid-2' grid xs={6}>
-    <Grid><h1>Explore  Community  More</h1></Grid>
+    <Grid><ButtonGroup variant="text" className="cust-menu-link-group" aria-label="text button group">
+    <Button>Explore</Button>
+    <Button>Community</Button>
+    <Button>More</Button>
+  </ButtonGroup></Grid>
   </Grid>
   <Grid className='cust-hader-grid child-grid-3' grid xs={2}>
     <Grid><Button variant="contained" size="large">Start</Button></Grid>
   </Grid>
 </Grid>
-</Container>
 
+
+<Grid container className='cust-second-grid' spacing={2}>
+  <Grid className='cust-hader-grid child-grid2-1' grid xs>
+    <Grid xs={7}></Grid>
+  </Grid>
+  <Grid className='cust-hader-grid child-grid2-2' grid xs={5}>
+    <Grid><span className='banner-heading'>Welcome to <span className='second-heading'>SpaceBudz</span></span></Grid>
+    <Grid><span className='banner-subline'>Let's go on an adventure, where will your SpaceBudz take you?</span></Grid>
+    <Grid><Button variant="contained" size="large">Explore ➜</Button></Grid>
+  </Grid>
+</Grid>
+</Container>
 );
 }
 

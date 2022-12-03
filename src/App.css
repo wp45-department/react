@@ -37,6 +37,8 @@
   }
 }
 
+/* 03.12.2022 css start */
+
 .cust-container {
   max-width: 1920px !important;
 }
@@ -68,3 +70,51 @@
   display: flex;
   justify-content: right !important;
 }
+
+.cust-second-grid{
+  padding: 50px !important;
+}
+
+.child-grid-3 .css-vj1n65-MuiGrid-root {
+  text-align: right !important;
+}
+
+.cust-second-grid{
+  padding-top: 100px !important;
+  padding-bottom: 100px !important;
+}
+
+.banner-heading{
+	font-family: Nunito,sans-serif;
+	font-size: 36px;
+	color: white;
+	text-align: right;
+}
+
+.banner-subline{
+	font-family: Nunito,sans-serif;
+	font-size: 22px;
+	color: white;
+	text-align: right;
+}
+
+.child-grid2-2 .css-vj1n65-MuiGrid-root {
+  text-align: right !important;
+}
+
+.second-heading{
+  color: #8064f4;	
+}
+
+.child-grid2-2 button.MuiButtonBase-root.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeLarge.MuiButton-containedSizeLarge.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeLarge.MuiButton-containedSizeLarge.css-jh47zj-MuiButtonBase-root-MuiButton-root {
+  margin-top: 20px !important;
+}
+
+.cust-hader-grid .css-1or64il-MuiButtonGroup-root .MuiButtonGroup-grouped {
+  margin-right: 20px !important;
+  margin-left: 20px !important;
+  border: 0px !important;
+  color: white !important;
+}
+
+/* 03.12.2022 css end */
