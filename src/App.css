@@ -48,30 +48,31 @@
   width: 80px !important;
 } */
 
-.cust-first-grid{
-	padding: 50px !important;
+.cust-first-grid {
+  padding: 50px !important;
 }
 
-.cust-first-grid{
-	display: flex !important;
+.cust-first-grid {
+  display: flex !important;
 }
 
-.cust-hader-grid{
-	padding: 20px !important;
-	align-items: center !important;
+.cust-hader-grid {
+  padding: 20px !important;
+  align-items: center !important;
 }
 
-.child-grid-2 .h1, h1 {
+.child-grid-2 .h1,
+h1 {
   font-size: 16px !important;
   color: white !important;
   text-align: right !important;
 }
-.child-grid-2{
+.child-grid-2 {
   display: flex;
   justify-content: right !important;
 }
 
-.cust-second-grid{
+.cust-second-grid {
   padding: 50px !important;
 }
 
@@ -79,34 +80,35 @@
   text-align: right !important;
 }
 
-.cust-second-grid{
+.cust-second-grid {
   padding-top: 100px !important;
   padding-bottom: 100px !important;
 }
 
-.banner-heading{
-	font-family: Nunito,sans-serif;
-	font-size: 36px;
-	color: white;
-	text-align: right;
+.banner-heading {
+  font-family: Nunito, sans-serif;
+  font-size: 36px;
+  color: white;
+  text-align: right;
 }
 
-.banner-subline{
-	font-family: Nunito,sans-serif;
-	font-size: 22px;
-	color: white;
-	text-align: right;
+.banner-subline {
+  font-family: Nunito, sans-serif;
+  font-size: 22px;
+  color: white;
+  text-align: right;
 }
 
 .child-grid2-2 .css-vj1n65-MuiGrid-root {
   text-align: right !important;
 }
 
-.second-heading{
-  color: #8064f4;	
+.second-heading {
+  color: #8064f4;
 }
 
-.child-grid2-2 button.MuiButtonBase-root.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeLarge.MuiButton-containedSizeLarge.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeLarge.MuiButton-containedSizeLarge.css-jh47zj-MuiButtonBase-root-MuiButton-root {
+.child-grid2-2
+  button.MuiButtonBase-root.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeLarge.MuiButton-containedSizeLarge.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeLarge.MuiButton-containedSizeLarge.css-jh47zj-MuiButtonBase-root-MuiButton-root {
   margin-top: 20px !important;
 }
 
@@ -132,5 +134,53 @@
   border: 0px !important;
   color: white !important;
 }
+.cust-footer-button {
+  color: white !important;
+  border: 0px !important;
+  margin: 0 !important;
+  padding: 0px !important;
+}
+.cust-menu-link-group {
+  display: flex !important;
+  justify-content: left !important;
+  align-items: flex-start;
+}
 
 /* 03.12.2022 css end */
+
+/* 05.12.2022 start */
+
+.cust-footer-logo-text {
+  font-family: Nunito, sans-serif;
+  font-size: 26px;
+  color: white;
+  text-align: right;
+  margin-left: 20px !important;
+}
+.cust-footer-logo-col {
+  display: flex !important;
+  align-items: center;
+}
+
+.cust-footer-logo-col .css-1osj8n2-MuiGrid-root {
+  max-width: 15% !important;
+}
+.cust-after-logo-text {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 20px !important;
+}
+.cust-terms-email-text {
+  font-size: 12px !important;
+  color: white !important;
+  border: 0px !important;
+  font-family: 'Roboto';
+}
+
+.cust-terms-text {
+  font-size: 12px !important;
+  color: white !important;
+  border: 0px !important;
+  font-family: 'Roboto';
+}
+/*  05.12.2022 end  */
