@@ -37,7 +37,9 @@ function App() {
               className="cust-menu-link-group"
               aria-label="text button group"
             >
-              <Button value="shop"></Button>
+            <a href="/shop">
+            <Button value="shop"> 🚀 Explore</Button>
+            </a>
               <Button>Community</Button>
               <Button>More</Button>
             </ButtonGroup>
@@ -85,11 +87,13 @@ function App() {
           <item className="cust-footer-logo-col">
             <Grid className="footer-col-one" item xs={6} md={6}>
               <item>
-                <img className="cust-footer-logo" src={headerlogo} />
+              <a href="/">
+                <img className="cust-footer-logo" src={headerlogo} /></a>
               </item>
             </Grid>
             <Grid item xs={6} md={6}>
-              <item className="cust-footer-logo-text">SpaceBudz</item>
+            <a href="/">
+              <item className="cust-footer-logo-text">SpaceBudz</item></a>
             </Grid>
           </item>
           <ButtonGroup
@@ -110,7 +114,7 @@ function App() {
               aria-label="text button group"
               orientation="vertical"
             >
-              <Button className="cust-footer-button">Explore</Button>
+            <a href="/shop"><Button className="cust-footer-button">Explore</Button></a>
               <Button className="cust-footer-button">About</Button>
               <Button className="cust-footer-button">help</Button>
               <Button className="cust-footer-button">Marketplace</Button>
