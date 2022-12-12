@@ -2,9 +2,9 @@
 
 import React, { Component } from "react";
 import { BrowserRouter, Switch, Route, Link, Routes } from "react-router-dom";
-import Home from "./Pages/Home";
-import Products from "./Pages/Productgrid";
-import Singleproduct from "./Pages/singleproduct"
+import Home1 from "./Pages/Home";
+import Header from "./Pages/Header";
+import Footer from "./Pages/Footer";
 
 class App extends Component {
   render() {
@@ -12,9 +12,9 @@ class App extends Component {
       <BrowserRouter>
         <>
           <Switch>
-            <Route exact path="/" component={Home} />
-            <Route exact path="/shop" component={Products} />
-            <Route exact path="/details" component={Singleproduct} />
+            <Route component={Header} />
+            <Route exact path="/" component={Home1} />
+            <Route component={Footer} />
           </Switch>
         </>
       </BrowserRouter>

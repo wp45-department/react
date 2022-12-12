@@ -282,3 +282,11 @@ h3.cust-category {
     margin-left: 50px !important;
 }
 /* 06.12.2022 end */
+
+/*  12.12.2022 start  */
+
+.cust-hader-grid .css-1or64il-MuiButtonGroup-root .MuiButtonGroup-grouped {
+  color: black !important;
+}
+
+/*  12.12.2022 end  */
