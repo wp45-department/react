@@ -11,7 +11,6 @@ import { Route, Switch } from "react-router-dom";
 import { Link } from "@mui/material";
 import { Typography } from "@mui/material";
 
-
 function App() {
   return (
     <Container

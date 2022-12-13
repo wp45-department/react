@@ -1,285 +1,287 @@
 .App {
-    text-align: center;
-  }
-  
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    height: 40vmin;
-    pointer-events: none;
+    animation: App-logo-spin infinite 20s linear;
   }
-  
-  @media (prefers-reduced-motion: no-preference) {
-    .App-logo {
-      animation: App-logo-spin infinite 20s linear;
-    }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
   }
-  
-  .App-header {
-    background-color: #282c34;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: white;
+  to {
+    transform: rotate(360deg);
   }
-  
-  .App-link {
-    color: #61dafb;
-  }
-  
-  @keyframes App-logo-spin {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(360deg);
-    }
-  }
-  
-  /* 03.12.2022 css start */
-  
-  .cust-container {
-    max-width: 1920px !important;
-  }
-  
-  /* img.cust-header-logo {
+}
+
+/* 03.12.2022 css start */
+
+.cust-container {
+  max-width: 1920px !important;
+}
+
+/* img.cust-header-logo {
     height: 80px !important;
     width: 80px !important;
   } */
-  
-  .cust-first-grid {
-    padding: 50px !important;
-  }
-  
-  .cust-first-grid {
-    display: flex !important;
-  }
-  
-  .cust-hader-grid {
-    padding: 20px !important;
-    align-items: center !important;
-  }
-  
-  .child-grid-2 .h1,
-  h1 {
-    font-size: 16px !important;
-    color: white !important;
-    text-align: right !important;
-  }
-  .child-grid-2 {
-    display: flex;
-    justify-content: right !important;
-  }
-  
-  .cust-second-grid {
-    padding: 50px !important;
-  }
-  
-  .child-grid-3 .css-vj1n65-MuiGrid-root {
-    text-align: right !important;
-  }
-  
-  .cust-second-grid {
-    padding-top: 100px !important;
-    padding-bottom: 100px !important;
-  }
-  
-  .banner-heading {
-    font-family: Nunito, sans-serif;
-    font-size: 36px;
-    color: white;
-    text-align: right;
-  }
-  
-  .banner-subline {
-    font-family: Nunito, sans-serif;
-    font-size: 22px;
-    color: white;
-    text-align: right;
-  }
-  
-  .child-grid2-2 .css-vj1n65-MuiGrid-root {
-    text-align: right !important;
-  }
-  
-  .second-heading {
-    color: #8064f4;
-  }
-  
-  .child-grid2-2
-    button.MuiButtonBase-root.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeLarge.MuiButton-containedSizeLarge.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeLarge.MuiButton-containedSizeLarge.css-jh47zj-MuiButtonBase-root-MuiButton-root {
-    margin-top: 20px !important;
-  }
-  
-  .cust-hader-grid .css-1or64il-MuiButtonGroup-root .MuiButtonGroup-grouped {
-    margin-right: 20px !important;
-    margin-left: 20px !important;
-    border: 0px !important;
-    color: white !important;
-  }
-  
-  .cust-footer-grid {
-    padding: 30px !important;
-    min-width: auto;
-  }
-  
-  .cust-container {
-    padding-right: 0px !important;
-  }
-  
-  .cust-footer-grid .css-1or64il-MuiButtonGroup-root .MuiButtonGroup-grouped {
-    margin-right: 20px !important;
-    margin-left: 20px !important;
-    border: 0px !important;
-    color: white !important;
-  }
-  .cust-footer-button {
-    color: white !important;
-    border: 0px !important;
-    margin: 0 !important;
-    padding: 0px !important;
-  }
-  .cust-menu-link-group {
-    display: flex !important;
-    justify-content: left !important;
-    align-items: flex-start;
-  }
-  
-  /* 03.12.2022 css end */
-  
-  /* 05.12.2022 start */
-  
-  .cust-footer-logo-text {
-    font-family: Nunito, sans-serif;
-    font-size: 26px;
-    color: white;
-    text-align: right;
-    margin-left: 20px !important;
-  }
-  .cust-footer-logo-col {
-    display: flex !important;
-    align-items: center;
-  }
-  
-  .cust-footer-logo-col .css-1osj8n2-MuiGrid-root {
-    max-width: 15% !important;
-  }
-  .cust-after-logo-text {
-    display: flex;
-    align-items: flex-start;
-    margin-top: 20px !important;
-  }
-  .cust-terms-email-text {
-    font-size: 12px !important;
-    color: white !important;
-    border: 0px !important;
-    font-family: 'Roboto';
-  }
-  
-  .cust-terms-text {
-    font-size: 12px !important;
-    color: white !important;
-    border: 0px !important;
-    font-family: 'Roboto';
-  }
-  /*  05.12.2022 end  */
-  
+
+.cust-first-grid {
+  padding: 50px !important;
+}
+
+.cust-first-grid {
+  display: flex !important;
+}
+
+.cust-hader-grid {
+  padding: 20px !important;
+  align-items: center !important;
+}
+
+.child-grid-2 .h1,
+h1 {
+  font-size: 16px !important;
+  color: white !important;
+  text-align: right !important;
+}
+.child-grid-2 {
+  display: flex;
+  justify-content: right !important;
+}
+
+.cust-second-grid {
+  padding: 50px !important;
+}
+
+.child-grid-3 .css-vj1n65-MuiGrid-root {
+  text-align: right !important;
+}
+
+.cust-second-grid {
+  padding-top: 100px !important;
+  padding-bottom: 100px !important;
+}
+
+.banner-heading {
+  font-family: Nunito, sans-serif;
+  font-size: 36px;
+  color: white;
+  text-align: right;
+}
+
+.banner-subline {
+  font-family: Nunito, sans-serif;
+  font-size: 22px;
+  color: white;
+  text-align: right;
+}
+
+.child-grid2-2 .css-vj1n65-MuiGrid-root {
+  text-align: right !important;
+}
+
+.second-heading {
+  color: #8064f4;
+}
+
+.child-grid2-2
+  button.MuiButtonBase-root.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeLarge.MuiButton-containedSizeLarge.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeLarge.MuiButton-containedSizeLarge.css-jh47zj-MuiButtonBase-root-MuiButton-root {
+  margin-top: 20px !important;
+}
+
+.cust-hader-grid .css-1or64il-MuiButtonGroup-root .MuiButtonGroup-grouped {
+  margin-right: 20px !important;
+  margin-left: 20px !important;
+  border: 0px !important;
+  color: white !important;
+}
+
+.cust-footer-grid {
+  padding: 30px !important;
+  min-width: auto;
+}
+
+.cust-container {
+  padding-right: 0px !important;
+}
+
+.cust-footer-grid .css-1or64il-MuiButtonGroup-root .MuiButtonGroup-grouped {
+  margin-right: 20px !important;
+  margin-left: 20px !important;
+  border: 0px !important;
+  color: white !important;
+}
+.cust-footer-button {
+  color: white !important;
+  border: 0px !important;
+  margin: 0 !important;
+  padding: 0px !important;
+}
+.cust-menu-link-group {
+  display: flex !important;
+  justify-content: left !important;
+  align-items: flex-start;
+}
+
+/* 03.12.2022 css end */
+
+/* 05.12.2022 start */
+
+.cust-footer-logo-text {
+  font-family: Nunito, sans-serif;
+  font-size: 26px;
+  color: white;
+  text-align: right;
+  margin-left: 20px !important;
+}
+.cust-footer-logo-col {
+  display: flex !important;
+  align-items: center;
+}
+
+.cust-footer-logo-col .css-1osj8n2-MuiGrid-root {
+  max-width: 15% !important;
+}
+.cust-after-logo-text {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 20px !important;
+}
+.cust-terms-email-text {
+  font-size: 12px !important;
+  color: white !important;
+  border: 0px !important;
+  font-family: "Roboto";
+}
+
+.cust-terms-text {
+  font-size: 12px !important;
+  color: white !important;
+  border: 0px !important;
+  font-family: "Roboto";
+}
+/*  05.12.2022 end  */
 
 /*  06.12.2022 start  */
 
-.cust-shop-container button.MuiButtonBase-root.MuiButton-root.MuiButton-text.MuiButton-textPrimary.MuiButton-sizeMedium.MuiButton-textSizeMedium.MuiButtonGroup-grouped.MuiButtonGroup-groupedHorizontal.MuiButtonGroup-groupedText.MuiButtonGroup-groupedTextHorizontal.MuiButtonGroup-groupedTextPrimary.MuiButton-root.MuiButton-text.MuiButton-textPrimary.MuiButton-sizeMedium.MuiButton-textSizeMedium.MuiButtonGroup-grouped.MuiButtonGroup-groupedHorizontal.MuiButtonGroup-groupedText.MuiButtonGroup-groupedTextHorizontal.MuiButtonGroup-groupedTextPrimary.css-1e6y48t-MuiButtonBase-root-MuiButton-root {
-    color: black !important;
+.cust-shop-container
+  button.MuiButtonBase-root.MuiButton-root.MuiButton-text.MuiButton-textPrimary.MuiButton-sizeMedium.MuiButton-textSizeMedium.MuiButtonGroup-grouped.MuiButtonGroup-groupedHorizontal.MuiButtonGroup-groupedText.MuiButtonGroup-groupedTextHorizontal.MuiButtonGroup-groupedTextPrimary.MuiButton-root.MuiButton-text.MuiButton-textPrimary.MuiButton-sizeMedium.MuiButton-textSizeMedium.MuiButtonGroup-grouped.MuiButtonGroup-groupedHorizontal.MuiButtonGroup-groupedText.MuiButtonGroup-groupedTextHorizontal.MuiButtonGroup-groupedTextPrimary.css-1e6y48t-MuiButtonBase-root-MuiButton-root {
+  color: black !important;
 }
 img.cust-card-image {
-    height: 250px !important;
+  height: 250px !important;
 }
 .cust-card-design {
-    background: #1e293b !important;
-    border-radius: 25px !important;
-    padding: 30px !important;
-    
+  background: #1e293b !important;
+  border-radius: 25px !important;
+  padding: 30px !important;
 }
-.cust-card-button  {
-    width: 100% !important;
-    color: white !important;
-    border: 1px solid black !important;
-    border-bottom-width: thick !important;
+.cust-card-button {
+  width: 100% !important;
+  color: white !important;
+  border: 1px solid black !important;
+  border-bottom-width: thick !important;
 }
 .cust-card-design {
-    margin-right: 20px !important;
+  margin-right: 20px !important;
 }
 .cust-footer-shop {
-    margin-top: 100px !important;
+  margin-top: 100px !important;
 }
 .cust-card-design .css-46bh2p-MuiCardContent-root {
-    display: flex;
-    justify-content: center !important;
+  display: flex;
+  justify-content: center !important;
 }
-.cust-card-grid{
-    margin-top: 50px !important;
+.cust-card-grid {
+  margin-top: 50px !important;
 }
 .cust-card-container {
-    padding-bottom: 0px !important;
+  padding-bottom: 0px !important;
 }
-.cust-single-product .cust-hader-grid .css-1or64il-MuiButtonGroup-root .MuiButtonGroup-grouped {
-    color: black !important;
+.cust-single-product
+  .cust-hader-grid
+  .css-1or64il-MuiButtonGroup-root
+  .MuiButtonGroup-grouped {
+  color: black !important;
 }
-.product-image-sec{
-background: #1e293b !important;
-border-radius: 25px !important;
-padding: 30px !important;
-display: flex !important;
-justify-content: center !important;
-align-items: center !important;
+.product-image-sec {
+  background: #1e293b !important;
+  border-radius: 25px !important;
+  padding: 30px !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
 }
 
 .product-image-sec .cust-card-image {
-    height: 400px !important;
+  height: 400px !important;
 }
-.product-detials{
-    padding: 0px 50px 30px 50px !important;
+.product-detials {
+  padding: 0px 50px 30px 50px !important;
 }
 h3.cust-category {
-    color: #bbbbbb !important;
+  color: #bbbbbb !important;
 }
 .inner-product-details {
-    margin-top: 20px !important;
+  margin-top: 20px !important;
 }
 .cust-details-button {
-    margin-top: 20px !important;
-    width: 70% !important;
-    color: white !important;
+  margin-top: 20px !important;
+  width: 70% !important;
+  color: white !important;
 }
-.cust-details-button-left{
-	background: rgb(165, 165, 253) !important;
-    border: 1px solid rgb(110, 110, 246) !important;
-    border-bottom-width: thick !important;
+.cust-details-button-left {
+  background: rgb(165, 165, 253) !important;
+  border: 1px solid rgb(110, 110, 246) !important;
+  border-bottom-width: thick !important;
 }
-.cust-details-button-right{
-	background: rgb(255, 178, 178) !important;
-    border: 1px solid rgb(249, 120, 120) !important;
-    border-bottom-width: thick !important;
+.cust-details-button-right {
+  background: rgb(255, 178, 178) !important;
+  border: 1px solid rgb(249, 120, 120) !important;
+  border-bottom-width: thick !important;
 }
 .last-sale {
-    margin-top: 30px !important;
+  margin-top: 30px !important;
 }
-.detials-owner{
-    margin-top: 30px !important;
+.detials-owner {
+  margin-top: 30px !important;
 }
 .cust-main-container {
-    max-width: none !important;
-    padding: 0px !important;
+  max-width: none !important;
+  padding: 0px !important;
 }
 .single-product-footer-design {
-    padding-left: 45px !important;
+  padding-left: 45px !important;
 }
 .cust-card-button a {
-    color: white !important;
+  color: white !important;
 }
 .single-rpdoct-grid {
-    margin-right: 50px !important;
-    margin-left: 50px !important;
+  margin-right: 50px !important;
+  margin-left: 50px !important;
 }
 /* 06.12.2022 end */
 
@@ -290,3 +292,67 @@ h3.cust-category {
 }
 
 /*  12.12.2022 end  */
+
+/*  13.12.2022 start  */
+
+.css-cf7lei-MuiContainer-root {
+  margin-top: 50px !important;
+}
+item.cust-banner-heading {
+  font-family: sans-serif;
+  font-size: 35px !important;
+}
+.MuiGrid-root.MuiGrid-container.MuiGrid-spacing-xs-2.cust-banner-con.css-mhc70k-MuiGrid-root {
+  margin-left: 30px !important;
+  margin-right: 30px !important;
+}
+.cust-how-it-work {
+  background: black !important;
+  color: white !important;
+  margin-top: 20px !important;
+}
+.cust-card-sec1 {
+  margin-top: 30px !important;
+  margin-bottom: 50px !important;
+  padding-right: 50px !important;
+  padding-left: 50px !important;
+}
+img.cust-card-image {
+  height: 235px !important;
+  margin-bottom: 20px !important;
+}
+.cust-card-amount {
+  margin-top: 20px !important;
+}
+
+.css-1idn90j-MuiGrid-root {
+  max-width: 80% !important;
+}
+.css-mhc70k-MuiGrid-root {
+  width: calc(80% + 16px) !important;
+}
+.cust-card-sec1 {
+  width: calc(100% + 16px) !important;
+}
+.cust-card-sec2 {
+  margin-bottom: 100px !important;
+}
+.second-section {
+  padding-left: 50px !important;
+  padding-right: 50px !important;
+  width: calc(100% + 16px) !important;
+  margin-top: 50px !important;
+}
+.second-section-2 {
+  padding-left: 50px !important;
+  padding-right: 50px !important;
+  width: calc(100% + 16px) !important;
+  margin-top: 50px !important;
+  margin-bottom: 100px !important;
+}
+.cust-last-sec-heading {
+  font-size: 20px !important;
+  font-weight: 600 !important;
+  line-height: 80px !important;
+}
+/* 13.12.2022 end  */

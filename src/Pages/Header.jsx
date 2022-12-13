@@ -4,7 +4,7 @@ import Container from "@mui/material/Container";
 import logo from "../../src/betterfund.png";
 import Grid from "@mui/material/Grid";
 import { Button, ButtonGroup } from "@mui/material";
-import {Link} from "react-router-dom"
+import { Link } from "react-router-dom";
 
 function App() {
   return (
@@ -22,7 +22,9 @@ function App() {
       <Grid container className="cust-first-grid" spacing={3}>
         <Grid className="cust-hader-grid child-grid-1" grid xs>
           <Grid xs={2}>
-            <img className="cust-header-logo" src={logo} />
+            <Link to="/" relative="path">
+              <img className="cust-header-logo" src={logo} />
+            </Link>
           </Grid>
         </Grid>
         <Grid className="cust-hader-grid child-grid-2" grid xs={6}>
@@ -33,10 +35,10 @@ function App() {
               aria-label="text button group"
             >
               <Link to="/shop" relative="path">
-              <Button value="shop"> Create Campaign</Button>
-            </Link>
+                <Button value="shop"> Create Campaign</Button>
+              </Link>
               <Button>How It Works</Button>
-              <Button>Connect Wallet</Button>
+              <Button className="cust-connect-wallet">Connect Wallet</Button>
             </ButtonGroup>
           </Grid>
         </Grid>
