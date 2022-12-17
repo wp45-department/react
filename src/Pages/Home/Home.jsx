@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import "./Style.css";
+import "../../Pages/Style.css";
 import Container from "@mui/material/Container";
-import cardimage from "../../src/funding.png";
-import logo1 from "../../src/logoipsum-247.svg";
-import logo2 from "../../src/logoipsum-248.svg";
-import logo3 from "../../src/logoipsum-249.svg";
+import cardimage from "../../assets/funding.png";
+import logo1 from "../../assets/logoipsum-247.svg";
+import logo2 from "../../assets/logoipsum-248.svg";
+import logo3 from "../../assets/logoipsum-249.svg";
 import Grid from "@mui/material/Grid";
 import { Button, ButtonGroup } from "@mui/material";
 import Card from "@mui/material/Card";

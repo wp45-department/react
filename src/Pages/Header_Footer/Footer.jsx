@@ -1,8 +1,9 @@
 import React, { useState } from "react";
-import "./Style.css";
+import "../../Pages/Style.css";
 import Container from "@mui/material/Container";
-import logo from "../../src/betterfund.png";
-import headerlogo from "../../src/betterfund.png";
+import logo from "../../assets/betterfund.png";
+import headerlogo from "../../assets/betterfund.png";
+import footerlogo from "./../../assets/CharityDonationwhite.png"
 import Grid from "@mui/material/Grid";
 import { Button, ButtonGroup } from "@mui/material";
 import { withTheme } from "@emotion/react";
@@ -35,7 +36,7 @@ function App() {
             <Grid className="footer-col-one" item xs={6} md={6}>
               <item>
                 <a href="/">
-                  <img className="cust-footer-logo" src={headerlogo} />
+                  <img className="cust-footer-logo" src={footerlogo} />
                 </a>
               </item>
             </Grid>

@@ -303,8 +303,8 @@ item.cust-banner-heading {
   font-size: 35px !important;
 }
 .MuiGrid-root.MuiGrid-container.MuiGrid-spacing-xs-2.cust-banner-con.css-mhc70k-MuiGrid-root {
-  margin-left: 30px !important;
-  margin-right: 30px !important;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 .cust-how-it-work {
   background: black !important;
@@ -354,5 +354,136 @@ img.cust-card-image {
   font-size: 20px !important;
   font-weight: 600 !important;
   line-height: 80px !important;
+}
+.cust-hader-grid .MuiButtonBase-root {
+  font-size: 15px !important;
+}
+img.cust-header-logo {
+  width: 250px !important;
+}
+.cust-subtext-campaignlink {
+  color: blue !important;
+}
+.cust-div-campaign-details {
+  margin-left: 0px !important;
+  margin-top: 20px !important;
+  margin-bottom: 0px !important;
+  padding: 10px !important;
+  border: 1px solid #cbcbcb;
+  border-radius: 15px !important;
+  padding-top: 0px !important;
+}
+.cust-div-campaign-details1 {
+  margin-left: 0px !important;
+  margin-top: 20px !important;
+  margin-bottom: 0px !important;
+  padding: 10px !important;
+  border: 1px solid #cbcbcb;
+  box-shadow: 5px 5px 5px #d7d7d7;
+  border-radius: 15px !important;
+  padding-top: 0px !important;
+}
+.cust-campaign-details-sec .css-mhc70k-MuiGrid-root {
+  box-sizing: initial !important;
+}
+.cust-main-sec-campaign .css-mhc70k-MuiGrid-root {
+  width: calc(100% + 16px) !important;
+}
+.cust-main-sec-campaign {
+  margin-bottom: 100px !important;
+}
+item.cust-amount {
+  font-size: 21px;
+  font-weight: 500;
+}
+item.cust-amount2 {
+  font-size: 16px !important;
+  color: #b1b1b1;
+}
+.cust-campaign-details-sec {
+  margin-left: 0px !important;
+}
+item.cust-contribute {
+  font-size: 35px !important;
+  color: green;
+}
+.cust-form {
+  display: flex !important;
+  margin-bottom: 20px !important;
+}
+button, input, optgroup, select, textarea {
+  margin: 0;
+  font-family: inherit;
+  border: 1px solid #cbcbcb;
+  font-size: inherit;
+  line-height: inherit;
+}
+.cust-wallet-btn {
+  margin-bottom: 20px !important;
+  color: black !important;
+  border: 0px solid black !important;
+  background: #ffa80966 !important;
+}
+item.cust-icon {
+  font-size: 15px !important;
+  margin-right: 15px;
+  background: black !important;
+  color: white !important;
+  border-radius: 50px !important;
+  padding-right: 10px !important;
+  padding-left: 10px !important;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+.cust-view-withdrawa2 {
+  background: rgba(0, 128, 0, 0.25) !important;
+  color: rgb(0, 0, 0) !important;
+  border: 0px !important;
+}
+.cust-footer-grid {
+  background: #c4424a !important;
+}
+img.cust-footer-logo {
+  width: 250px !important;
+}
+.cust-thank-you-img {
+  width: 1200px !important;
+}
+.thank-you-grid {
+  display: flex;
+  justify-content: center !important;
+}
+
+.cust-form-field {
+  width: calc(50% + 50px) !important;
+  margin-top: 20px !important;
+}
+.cust-create-sec-campaign {
+  margin-bottom: 100px !important;
+  /* margin-left: 0px !important; */
+}
+
+.form-grid-main {
+  display: flex;
+  justify-content: center;
+}
+.cust-create-sec-campaign2 .MuiGrid-container {
+  max-width: 100%;
+  width: 100% !important;
+}
+.cust-create-sec-campaign2 > .MuiGrid-container > .MuiGrid-item.form-grid-main {
+  width: 100% !important;
+  max-width: 100% !important;
+  flex: 0 0 100% !important;
+}
+.cust-create-sec-campaign2 .cust-banner-con {
+  justify-content: center;
+  text-align: center;
+}
+.cust-form-field-submit {
+  margin-top: 20px !important;
+  color: #ffffff !important;
+  border: 0px !important;
+  background: #c4424a !important;
 }
 /* 13.12.2022 end  */
